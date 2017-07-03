@@ -4,7 +4,7 @@ import isPlainObject from 'is-plain-object'
 import { errors } from 'feathers-errors'
 import errorHandler from './error-handler'
 
-const debug = require('debug')('feathers-knex')
+const debug = require('debug')('feathers-knex-jordan')
 
 const METHODS = {
   $or: 'orWhere',
